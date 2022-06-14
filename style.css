@@ -1,0 +1,27 @@
+    /* * {
+        padding: 0;
+
+    } */
+
+body {
+    background: #222;
+    padding-top: 80px;
+}
+.demo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+img#slider {
+    object-fit: cover;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    color: #aaa;
+    background-color: aqua;
+    border-radius: 5px !important;
+    font-weight: bold;
+    /* pointer-events: ; */
+}
